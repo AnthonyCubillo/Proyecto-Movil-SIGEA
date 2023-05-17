@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:gravity="bottom"
+    android:padding="15dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:background="@color/color_gray_ligth"
+    android:layout_marginBottom="30dp"
+    android:orientation="vertical">
+
+    <!-- Logo U -->
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="120dp"
+        android:src="@drawable/una"
+        android:layout_marginBottom="5dp"/>
+
+    <!-- Nombre usuario logeado-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/icon_usuario" />
+
+        <TextView
+            android:id="@+id/nombreUsuario"
+            android:text="Nombre"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"/>
+
+    </LinearLayout>
+
+
+    <!-- DNI usuario logeado-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/icon_email" />
+
+        <TextView
+            android:id="@+id/emailUsuario"
+            android:text="correo"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"/>
+
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

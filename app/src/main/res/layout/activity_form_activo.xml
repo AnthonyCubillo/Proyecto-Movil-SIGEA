@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo_fom_activo"
+    tools:context=".FormActivo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp">
+
+        <LinearLayout
+            android:id="@+id/form_Data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_form_activo"
+            android:elevation="5dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:orientation="vertical">
+
+        <!-- netiqueta -->
+        <TextView
+            android:id="@+id/tv_nEtiqueta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:gravity="center"
+            android:text="N° Etiqueta: "
+            android:textColor="@color/color_danger"
+            android:textSize="20dp" />
+
+        <!-- Descripción -->
+        <TextView
+            android:id="@+id/tv_descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descripción: "
+            android:textSize="14dp" />
+
+        <!-- Marca -->
+        <TextView
+            android:id="@+id/tv_marca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Marca: "
+            android:textSize="14dp" />
+
+        <!-- Modelo -->
+        <TextView
+            android:id="@+id/tv_modelo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Modelo: "
+            android:textSize="14dp" />
+
+        <!-- Ubicación -->
+        <LinearLayout
+            android:id="@+id/container_ubicacion"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:padding="0dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_ubicacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ubicación: "
+                android:textSize="14dp" />
+
+            <Spinner
+                android:id="@+id/sp_ubicaciones"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+
+        <!-- Serie -->
+        <TextView
+            android:id="@+id/tv_serie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Serie: "
+            android:textSize="14dp" />
+
+        <!-- Valor en libros -->
+        <TextView
+            android:id="@+id/tv_valor_libros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Valor en Libros: "
+            android:textSize="14dp" />
+
+        <!-- Condición -->
+        <TextView
+            android:id="@+id/tv_condicion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Condición: "
+            android:textSize="14dp" />
+
+        <!-- Clase Activo -->
+        <TextView
+            android:id="@+id/tv_clase_activo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Clase Activo: "
+            android:textSize="14dp" />
+
+        <!-- Identificación Funcionario -->
+        <TextView
+            android:id="@+id/tv_dni_func"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Identificación Funcionario: "
+            android:textSize="14dp" />
+
+        <!-- Nombre Funcionario -->
+        <TextView
+            android:id="@+id/tv_nombre_func"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Nombre Funcionario: "
+            android:textSize="14dp" />
+
+        <Button
+            android:id="@+id/btnFormActivo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_outline_danger"
+            android:onClick="actualizarActivo"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:text="@string/btnActualizarActivo"
+            android:textColor="@color/color_danger" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

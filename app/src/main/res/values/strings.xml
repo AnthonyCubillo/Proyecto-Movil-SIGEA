@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Modulo Carga -->
+    <string name="app_name">SIGEA</string>
+    <string name="app_name_u">Universidad Nacional</string>
+    <string name="app_name_u2">de Costa Rica</string>
+
+    <!-- Modulo Login -->
+    <string name="action_login_title">SIGEA - Inicio de Sesión</string>
+    <string name="btnInicioSesion">Acceder</string>
+    <string name="usuario">Usuario</string>
+    <string name="clave">Contraseña</string>
+
+    <!-- Menu main -->
+    <string name="inicio">Inicio</string>
+    <string name="acercaDe">Acerca de</string>
+    <string name="goBack">Regresar</string>
+    <string name="cerrarSesion">Cerrar</string>
+
+    <!-- Activity acerca de -->
+    <string name="tv_acercaDe"> Acerca de SIGEA App</string>
+    <string name="tv_profesores"> Profesores: </string>
+    <string name="tv_profesor_1"> Ingenieria I: Wilber Rodríguez Recinos</string>
+    <string name="tv_profesor_2"> Ingenieria II: Carlos Felipe Escalante Solano</string>
+    <string name="tv_profesor_3"> Ingenieria III: No encontrado!</string>
+    <string name="tv_grupo"> Grupo#1 Ingenieria 2022 ~ 2023:</string>
+    <string name="tv_integrante_1">* Junid Tinoco Calderón</string>
+    <string name="tv_integrante_2">* Yeilan Zúñiga Calderón</string>
+    <string name="tv_integrante_3">* Gamaliel Rodríguez Vargas</string>
+    <string name="tv_integrante_4">* Anthony Cubillo Cruz</string>
+    <string name="tv_integrante_5">* Wilfredo Barquero Herrera</string>
+    <string name="tv_derechos">Todos los derechos reservados © UNA </string>
+
+    <!-- activity main  -->
+    <string name="lectorCodigoQr">Lector Codigo Qr</string>
+    <string name="tvPrincipal">N° Etiqueta de Activo</string>
+    <string name="tvnEtiquetaQr">Esperando scaneo de codigo QR</string>
+    <string name="btnVerActivo">Ver Información</string>
+
+
+    <!-- activity form activo  -->
+    <string name="btnActualizarActivo">Actualizar</string>
+    <string name="btnCancelarActivo">Cancelar</string>
+
+
+    <!-- Navigation drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+</resources>

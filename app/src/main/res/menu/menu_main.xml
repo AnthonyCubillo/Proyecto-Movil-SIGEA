@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/inicio"
+            android:title="@string/inicio"
+            android:icon="@drawable/icon_home" />
+
+        <item
+            android:id="@+id/acercaDe"
+            android:title="@string/acercaDe"
+            android:icon="@drawable/icon_acerca_de" />
+
+        <item
+            android:id="@+id/cerrarSesion"
+            android:title="@string/cerrarSesion"
+            android:icon="@drawable/icon_salir" />
+
+    </group>
+
+</menu>

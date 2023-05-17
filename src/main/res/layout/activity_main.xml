@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/drawer_layout"
+    tools:openDrawer="start"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_main"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/color_danger"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+            <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            </FrameLayout>
+
+        <!-- Info de lectura QR -->
+        <LinearLayout
+            android:id="@+id/contenedorQr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- imagen activo -->
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/dispositivo"
+                tools:ignore="ImageContrastCheck" />
+
+            <TextView
+                android:id="@+id/tvPrincipal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:text="@string/tvPrincipal"
+                android:textColor="@color/color_gray"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tvnEtiquetaQr"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:text="N00169761"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnActualizarVehiculo"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_outline_danger"
+                android:layout_gravity="center"
+                android:onClick="mostrarForm"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:text="@string/btnVerActivo"
+                android:textColor="@color/color_danger" />
+
+        </LinearLayout>
+        <!-- Boton de editar -->
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+   <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view_main"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/encabezado"
+        app:menu="@menu/menu_main"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <!-- color barra con nombre de app -->
+        <item name="colorPrimary">@color/color_danger</item>
+
+        <!-- color barra superior iconos celular-->
+        <item name="colorPrimaryDark">@color/black</item>
+
+        <!-- color acentuar / focus entradas -->
+        <item name="colorAccent">@color/color_danger_ligth</item>
+
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>

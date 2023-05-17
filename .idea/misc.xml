@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/liwba/AndroidStudioProjects/app/src/main/res/drawable-anydpi/icon_acercaDe.xml" value="0.101" />
+        <entry key="..\:/Users/liwba/AndroidStudioProjects/app/src/main/res/drawable-anydpi/icon_email.xml" value="0.101" />
+        <entry key="..\:/Users/liwba/AndroidStudioProjects/app/src/main/res/drawable-anydpi/icon_home.xml" value="0.101" />
+        <entry key="..\:/Users/liwba/AndroidStudioProjects/app/src/main/res/drawable-anydpi/icon_lectorqr.xml" value="0.101" />
+        <entry key="..\:/Users/liwba/AndroidStudioProjects/app/src/main/res/drawable-anydpi/icon_password.xml" value="0.101" />
+        <entry key="..\:/Users/liwba/AndroidStudioProjects/app/src/main/res/drawable-anydpi/icon_user.xml" value="0.101" />
+        <entry key="..\:/Users/liwba/AndroidStudioProjects/app/src/main/res/drawable-anydpi/icon_usuario.xml" value="0.101" />
+        <entry key="..\:/Users/liwba/AndroidStudioProjects/app/src/main/res/drawable/bg_round.xml" value="0.101" />
+        <entry key="..\:/Users/liwba/AndroidStudioProjects/app/src/main/res/drawable/button_danger.xml" value="0.101" />
+        <entry key="..\:/Users/liwba/AndroidStudioProjects/app/src/main/res/drawable/button_outline_danger.xml" value="0.101" />
+        <entry key="..\:/Users/liwba/AndroidStudioProjects/app/src/main/res/drawable/button_rounded.xml" value="0.101" />
+        <entry key="..\:/Users/liwba/AndroidStudioProjects/app/src/main/res/layout/activity_carga.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/liwba/AndroidStudioProjects/app/src/main/res/layout/activity_login.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/liwba/AndroidStudioProjects/app/src/main/res/layout/activity_main.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/liwba/AndroidStudioProjects/app/src/main/res/layout/encabezado.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/liwba/AndroidStudioProjects/app/src/main/res/layout/fragment_acerca_de.xml" value="0.264" />
+        <entry key="..\:/Users/liwba/AndroidStudioProjects/app/src/main/res/layout/fragment_codigo_qr.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/liwba/AndroidStudioProjects/app/src/main/res/layout/progress_dialog.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/liwba/AndroidStudioProjects/app/src/main/res/menu/menu_lector_codigoqr.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/liwba/AndroidStudioProjects/app/src/main/res/menu/menu_main.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/liwba/AndroidStudioProjects/app/src/main/res/mipmap-anydpi-v26/icono_app.xml" value="0.1" />
+        <entry key="..\:/Users/liwba/AndroidStudioProjects/app/src/main/res/mipmap-anydpi-v26/icono_app_round.xml" value="0.1" />
+        <entry key="..\:/Users/liwba/AndroidStudioProjects/app/src/main/res/mipmap-anydpi-v26/icono_app_sigea.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
